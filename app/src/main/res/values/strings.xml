@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">KotlinApplicationYoutube</string>
+    <string name="try_again">Try again</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="playlist">Плейлист</string>
+    <string name="title_water_first">detail_</string>
+    <string name="title_water_second">detailmoto</string>
+    <string name="_12_video_series">12 videos</string>
+    <string name="video_series">video series</string>
+    <string name="key_item_count">key_item_count</string>
+    <string name="todo">TODO</string>
+    <string name="download">Скачать</string>
+    <string name="op">Refugee children often have suffered many losses and because of that, they are grieving these losses they\'re grieving the loss of their home, the loss of the life they knew, the places where they were used to be and that they loved to go. The loss of their friends, and certainly the loss of their family members and loved ones. So naturally they\'re going to have sadness.</string>
+    <string name="kop"><![CDATA[HOW DISPLACEMENT INSTABILITY & UNCERTAINTY AFFECT CHILDREN]]></string>
+    <string name="video">видео</string>
+    <string name="back">Назад</string>
+</resources>
