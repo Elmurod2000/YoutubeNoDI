@@ -36,6 +36,10 @@ class PlaylistActivity : BaseActivity<PlaylistViewModel, ActivityPlaylistBinding
 
     override fun initViewModel() {
         super.initViewModel()
+        viewModel.loading.observe(this) {
+            binding.progress.isVisible = it
+            binding.progressBar.isVisible = it
+        }
         viewModel.getPlayList().observe(this) {
             when (it.status) {
                 Status.ERROR -> {

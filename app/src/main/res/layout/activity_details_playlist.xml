@@ -115,32 +115,17 @@
         tools:ignore="ContentDescription" />
 
 
-    <RelativeLayout
-        android:id="@+id/no_internet_checker"
+    <include
+        android:id="@+id/connection"
+        layout="@layout/blank_screen"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="invisible">
-
-        <ProgressBar
-            android:id="@+id/progress"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true" />
-
-        <include
-            layout="@layout/blank_screen"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-    </RelativeLayout>
+        android:visibility="gone" />
 
     <ProgressBar
-        android:id="@+id/pb_detail_playlist"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:indeterminate="true"
-        android:visibility="gone" />
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

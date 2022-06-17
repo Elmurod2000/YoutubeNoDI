@@ -8,7 +8,6 @@ import com.example.youtubenodi.R
 import com.example.youtubenodi.core.extentions.load
 import com.example.youtubenodi.databinding.ItemPlayListBinding
 import com.example.youtubenodi.remote.model.PlayListItem
-import com.example.youtubenodi.remote.model.PlaylistModel
 
 class PlaylistAdapter(
     private val playList: List<PlayListItem>,
